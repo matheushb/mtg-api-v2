@@ -1,0 +1,23 @@
+> autocannon -c 100 -d 50 -m GET -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hdGhldXNAbWFpbC5jb20iLCJzdWIiOiIxNGYyNzJiNy1hOTZiLTQ2MmMtOGEzOC0zYzc3OTI0Y2U3NjEiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3Mjc1NTE0ODksImV4cCI6MTcyODE1NjI4OX0.E_jq16US8WgPnOjUwYqec6P_i4fzv9bAQmTS8DG33_M' http://localhost:8000/decks?showCards=true -o reports/report.html
+
+Running 50s test @ http://localhost:8000/decks?showCards=true
+100 connections
+
+
+┌─────────┬────────┬────────┬─────────┬─────────┬──────────┬───────────┬─────────┐
+│ Stat    │ 2.5%   │ 50%    │ 97.5%   │ 99%     │ Avg      │ Stdev     │ Max     │
+├─────────┼────────┼────────┼─────────┼─────────┼──────────┼───────────┼─────────┤
+│ Latency │ 534 ms │ 562 ms │ 1468 ms │ 1529 ms │ 635.4 ms │ 237.56 ms │ 1787 ms │
+└─────────┴────────┴────────┴─────────┴─────────┴──────────┴───────────┴─────────┘
+┌───────────┬─────────┬─────────┬───────┬─────────┬─────────┬─────────┬─────────┐
+│ Stat      │ 1%      │ 2.5%    │ 50%   │ 97.5%   │ Avg     │ Stdev   │ Min     │
+├───────────┼─────────┼─────────┼───────┼─────────┼─────────┼─────────┼─────────┤
+│ Req/Sec   │ 30      │ 53      │ 175   │ 186     │ 156.94  │ 39.38   │ 30      │
+├───────────┼─────────┼─────────┼───────┼─────────┼─────────┼─────────┼─────────┤
+│ Bytes/Sec │ 9.42 MB │ 16.6 MB │ 55 MB │ 58.4 MB │ 49.3 MB │ 12.4 MB │ 9.42 MB │
+└───────────┴─────────┴─────────┴───────┴─────────┴─────────┴─────────┴─────────┘
+
+Req/Bytes counts sampled once per second.
+# of samples: 50
+
+8k requests in 50.23s, 2.46 GB read

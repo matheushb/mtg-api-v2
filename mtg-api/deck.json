@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "7ad77890-cf97-4707-ab31-be0f5be0e120",
+    "name": "A-Bruenor Battlehammer",
+    "released_date": "2021-07-23T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Legendary Creature — Dwarf Warrior",
+    "text": "Each creature you control gets +2/+0 for each Equipment attached to it.\n{0}: Attach target Equipment you control to target creature you control. Activate only as a sorcery and only once each turn.",
+    "power": 5,
+    "toughness": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "ea1d684e-c4dd-481b-856e-8331d4f64be2",
+    "name": "A-Asari Captain",
+    "released_date": "2022-02-18T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Creature — Human Samurai",
+    "text": "Trample, haste\nWhenever a Samurai or Warrior you control attacks alone, it gets +1/+0 until end of turn for each Samurai or Warrior you control.",
+    "power": 2,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "67a76010-d932-4727-8b5e-b8e2d14e1362",
+    "name": "Adult Gold Dragon",
+    "released_date": "2021-07-23T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}",
+    "type": "Creature — Dragon",
+    "text": "Flying, lifelink, haste",
+    "power": 4,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "RARE",
+    "price_in_usd": 0.24,
+    "foil_price_in_usd": 0.29
+  },
+  {
+    "id": "76cd4e45-30a0-4a24-9612-adeb8fddff23",
+    "name": "Aegis of the Legion",
+    "released_date": "2024-02-23T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Artifact — Equipment",
+    "text": "Equipped creature gets +1/+1 and has mentor. (Whenever it attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nWhenever equipped creature mentors a creature, put a shield counter on that creature. (If that creature would be dealt damage or destroyed, remove a shield counter from it instead.)\nEquip {3}",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 0.93,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "13d44c40-cdd0-42d5-a250-e7d95ae926c0",
+    "name": "A-Kargan Warleader",
+    "released_date": "2020-09-25T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Creature — Human Warrior",
+    "text": "Ward {1}\nOther Warriors you control get +1/+1 and have ward {1}.",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "04aa9d4f-37cc-4fc8-877a-6190f96eb509",
+    "name": "Akroan Hoplite",
+    "released_date": "2016-08-26T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Soldier",
+    "text": "Whenever Akroan Hoplite attacks, it gets +X/+0 until end of turn, where X is the number of attacking creatures you control.",
+    "power": 1,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.11,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "43224e74-2c51-40bd-bc34-f66e990a3e33",
+    "name": "Alpine Houndmaster",
+    "released_date": "2020-07-03T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Warrior",
+    "text": "When Alpine Houndmaster enters, you may search your library for a card named Alpine Watchdog and/or a card named Igneous Cur, reveal them, put them into your hand, then shuffle.\nWhenever Alpine Houndmaster attacks, it gets +X/+0 until end of turn, where X is the number of other attacking creatures.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.09,
+    "foil_price_in_usd": 0.25
+  },
+  {
+    "id": "8ba4c7a2-6243-43ed-8c1c-e3edee43a583",
+    "name": "Angelfire Ignition",
+    "released_date": "2021-09-24T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Sorcery",
+    "text": "Put two +1/+1 counters on target creature. It gains vigilance, trample, lifelink, indestructible, and haste until end of turn.\nFlashback {2}{R}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "RARE",
+    "price_in_usd": 0.34,
+    "foil_price_in_usd": 0.62
+  },
+  {
+    "id": "ef0baf56-816a-4e0a-beb3-73b51487ff00",
+    "name": "Angelic Captain",
+    "released_date": "2015-10-02T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}",
+    "type": "Creature — Angel Ally",
+    "text": "Flying\nWhenever Angelic Captain attacks, it gets +1/+1 until end of turn for each other attacking Ally.",
+    "power": 4,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "RARE",
+    "price_in_usd": 0.08,
+    "foil_price_in_usd": 0.35
+  },
+  {
+    "id": "8d54c510-19bf-4da4-a51b-1caadf960654",
+    "name": "Arcbound Shikari",
+    "released_date": "2021-06-18T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Artifact Creature — Cat Soldier",
+    "text": "First strike\nWhen Arcbound Shikari enters, put a +1/+1 counter on each other artifact creature you control.\nModular 2 (This creature enters with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)",
+    "power": 0,
+    "toughness": 0,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.06,
+    "foil_price_in_usd": 0.18
+  },
+  {
+    "id": "4e5ffa95-5c5f-449b-820a-7d5bc1688d29",
+    "name": "Armory Paladin",
+    "released_date": "2024-03-08T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Creature — Human Knight",
+    "text": "Trample\nWhenever you cast an Aura or Equipment spell, exile the top card of your library. You may play that card until the end of your next turn.",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "RARE",
+    "price_in_usd": 0.14,
+    "foil_price_in_usd": 0.68
+  },
+  {
+    "id": "c64a15f4-6e2f-4479-95da-8805ce2091fa",
+    "name": "Arrows of Justice",
+    "released_date": "2013-02-01T00:00:00.000Z",
+    "mana_cost": "{2}{R/W}",
+    "type": "Instant",
+    "text": "Arrows of Justice deals 4 damage to target attacking or blocking creature.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.11,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "834b4e6a-1812-4399-8fe4-bb1686ba49ef",
+    "name": "Asari Captain",
+    "released_date": "2022-02-18T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}",
+    "type": "Creature — Human Samurai",
+    "text": "Haste\nWhenever a Samurai or Warrior you control attacks alone, it gets +1/+0 until end of turn for each Samurai or Warrior you control.",
+    "power": 4,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.04,
+    "foil_price_in_usd": 0.09
+  },
+  {
+    "id": "10ce686a-eecd-4b32-a882-9a6ca3274ae6",
+    "name": "Assemble the Legion",
+    "released_date": "2024-01-12T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}",
+    "type": "Enchantment",
+    "text": "At the beginning of your upkeep, put a muster counter on Assemble the Legion. Then create a 1/1 red and white Soldier creature token with haste for each muster counter on Assemble the Legion.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "RARE",
+    "price_in_usd": 0.25,
+    "foil_price_in_usd": 0.36
+  },
+  {
+    "id": "1a3465b6-ee7f-4553-bbf1-85fae9734b67",
+    "name": "Aurelia's Fury",
+    "released_date": "2013-02-01T00:00:00.000Z",
+    "mana_cost": "{X}{R}{W}",
+    "type": "Instant",
+    "text": "Aurelia's Fury deals X damage divided as you choose among any number of targets. Tap each creature dealt damage this way. Players dealt damage this way can't cast noncreature spells this turn.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "MYTHIC",
+    "price_in_usd": 1.34,
+    "foil_price_in_usd": 8.2
+  },
+  {
+    "id": "3ed13445-c9a0-4f17-aa69-af353679e6a7",
+    "name": "Balefire Liege",
+    "released_date": "2022-07-08T00:00:00.000Z",
+    "mana_cost": "{2}{R/W}{R/W}{R/W}",
+    "type": "Creature — Spirit Horror",
+    "text": "Other red creatures you control get +1/+1.\nOther white creatures you control get +1/+1.\nWhenever you cast a red spell, Balefire Liege deals 3 damage to target player or planeswalker.\nWhenever you cast a white spell, you gain 3 life.",
+    "power": 2,
+    "toughness": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "RARE",
+    "price_in_usd": 1.92,
+    "foil_price_in_usd": 2.25
+  },
+  {
+    "id": "c330f44c-0479-472d-81ed-16445d182c37",
+    "name": "Battlegate Mimic",
+    "released_date": "2009-09-04T00:00:00.000Z",
+    "mana_cost": "{1}{R/W}",
+    "type": "Creature — Shapeshifter",
+    "text": "Whenever you cast a spell that's both red and white, Battlegate Mimic has base power and toughness 4/2 until end of turn and gains first strike until end of turn.",
+    "power": 2,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "COMMON",
+    "price_in_usd": 0.19,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "72cdf36c-d8a2-4629-8f2a-d4ac86ac9320",
+    "name": "Belligerent Hatchling",
+    "released_date": "2008-07-25T00:00:00.000Z",
+    "mana_cost": "{3}{R/W}",
+    "type": "Creature — Elemental",
+    "text": "First strike\nBelligerent Hatchling enters with four -1/-1 counters on it.\nWhenever you cast a red spell, remove a -1/-1 counter from Belligerent Hatchling.\nWhenever you cast a white spell, remove a -1/-1 counter from Belligerent Hatchling.",
+    "power": 6,
+    "toughness": 6,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.16,
+    "foil_price_in_usd": 0.3
+  },
+  {
+    "id": "a46d64ec-aca4-428e-bce6-66cd755c8cc3",
+    "name": "Blade Historian",
+    "released_date": "2021-04-23T00:00:00.000Z",
+    "mana_cost": "{R/W}{R/W}{R/W}{R/W}",
+    "type": "Creature — Human Cleric",
+    "text": "Attacking creatures you control have double strike.",
+    "power": 2,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "RARE",
+    "price_in_usd": 1.2,
+    "foil_price_in_usd": 1.38
+  },
+  {
+    "id": "953ed64c-f336-45c0-8377-486686c5b977",
+    "name": "Bladehold Cleaver",
+    "released_date": "2023-02-28T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Artifact — Equipment",
+    "text": "For Mirrodin!\nEquipped creature gets +2/+2.\nWhenever equipped creature dies, draft a card from Bladehold Cleaver's spellbook.\nEquip {3}",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "RARE",
+    "price_in_usd": 0,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "563e9ba5-e0ec-4fb3-8301-689aa145cc19",
+    "name": "Bladehold War-Whip",
+    "released_date": "2023-02-03T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Artifact — Equipment",
+    "text": "For Mirrodin! (When this Equipment enters, create a 2/2 red Rebel creature token, then attach this to it.)\nEquip abilities you activate of other Equipment cost {1} less to activate.\nEquipped creature has double strike.\nEquip {3}{R}{W}",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.1,
+    "foil_price_in_usd": 0.32
+  },
+  {
+    "id": "5e179f0d-2965-44e4-8483-67b330a8608c",
+    "name": "Blaze Commando",
+    "released_date": "2013-05-03T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}",
+    "type": "Creature — Minotaur Soldier",
+    "text": "Whenever an instant or sorcery spell you control deals damage, create two 1/1 red and white Soldier creature tokens with haste.",
+    "power": 5,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.12,
+    "foil_price_in_usd": 0.59
+  },
+  {
+    "id": "6c43e449-acf2-4e94-b7cf-8c84d70191da",
+    "name": "Boros Battleshaper",
+    "released_date": "2013-05-03T00:00:00.000Z",
+    "mana_cost": "{5}{R}{W}",
+    "type": "Creature — Minotaur Soldier",
+    "text": "At the beginning of each combat, up to one target creature attacks or blocks this combat if able and up to one target creature can't attack or block this combat.",
+    "power": 5,
+    "toughness": 5,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 7,
+    "rarity": "RARE",
+    "price_in_usd": 0.18,
+    "foil_price_in_usd": 0.34
+  },
+  {
+    "id": "545f3a30-7984-4046-8a14-51bc9cbc3fe0",
+    "name": "Boros Challenger",
+    "released_date": "2018-10-05T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Soldier",
+    "text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\n{2}{R}{W}: Boros Challenger gets +1/+1 until end of turn.",
+    "power": 2,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.05,
+    "foil_price_in_usd": 0.19
+  },
+  {
+    "id": "e0d8c9f6-cbbd-4694-b100-01cfb81036cc",
+    "name": "Boros Charm",
+    "released_date": "2024-11-15T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Instant",
+    "text": "Choose one —\n• Boros Charm deals 4 damage to target player or planeswalker.\n• Permanents you control gain indestructible until end of turn.\n• Target creature gains double strike until end of turn.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0,
+    "foil_price_in_usd": 3.24
+  },
+  {
+    "id": "4355130c-bfaa-4799-9d70-dbfd32e39f7e",
+    "name": "Boros Guildmage",
+    "released_date": "2024-01-12T00:00:00.000Z",
+    "mana_cost": "{R/W}{R/W}",
+    "type": "Creature — Human Wizard",
+    "text": "{1}{R}: Target creature gains haste until end of turn.\n{1}{W}: Target creature gains first strike until end of turn.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.03,
+    "foil_price_in_usd": 0.1
+  },
+  {
+    "id": "55a2f767-5928-44c5-91b7-2300bade458f",
+    "name": "Boros Reckoner",
+    "released_date": "2024-02-09T00:00:00.000Z",
+    "mana_cost": "{R/W}{R/W}{R/W}",
+    "type": "Creature — Minotaur Wizard",
+    "text": "Whenever Boros Reckoner is dealt damage, it deals that much damage to any target.\n{R/W}: Boros Reckoner gains first strike until end of turn.",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "RARE",
+    "price_in_usd": 0.12,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "5af01330-05c2-4c5b-9830-2886711b2b5d",
+    "name": "Boros Recruit",
+    "released_date": "2005-10-07T00:00:00.000Z",
+    "mana_cost": "{R/W}",
+    "type": "Creature — Goblin Soldier",
+    "text": "({R/W} can be paid with either {R} or {W}.)\nFirst strike",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 1,
+    "rarity": "COMMON",
+    "price_in_usd": 0.15,
+    "foil_price_in_usd": 5.04
+  },
+  {
+    "id": "11fab2c1-250a-44f7-a187-ee0352b81569",
+    "name": "Boros Strike-Captain",
+    "released_date": "2024-02-23T00:00:00.000Z",
+    "mana_cost": "{1}{R/W}{R/W}",
+    "type": "Creature — Minotaur Soldier",
+    "text": "Battalion — Whenever Boros Strike-Captain and at least two other creatures attack, exile the top card of your library. During any turn you attacked with three or more creatures, you may play that card.",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "RARE",
+    "price_in_usd": 0.25,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "6135a9f2-e86d-4a34-857e-adea3c722fea",
+    "name": "Boros Swiftblade",
+    "released_date": "2015-05-22T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Soldier",
+    "text": "Double strike",
+    "power": 1,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.09,
+    "foil_price_in_usd": 0.69
+  },
+  {
+    "id": "9a3acf27-5d07-48e6-8e19-a2e6d4cd49d1",
+    "name": "Brightflame",
+    "released_date": "2005-10-07T00:00:00.000Z",
+    "mana_cost": "{X}{R}{R}{W}{W}",
+    "type": "Sorcery",
+    "text": "Radiance — Brightflame deals X damage to target creature and each other creature that shares a color with it. You gain life equal to the damage dealt this way.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "RARE",
+    "price_in_usd": 0.4,
+    "foil_price_in_usd": 3.08
+  },
+  {
+    "id": "1d375f2c-8d43-4e25-a0fb-9e936a03d5f7",
+    "name": "Bull Cerodon",
+    "released_date": "2009-09-04T00:00:00.000Z",
+    "mana_cost": "{4}{R}{W}",
+    "type": "Creature — Beast",
+    "text": "Vigilance, haste",
+    "power": 5,
+    "toughness": 5,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 6,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.25,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "58766566-6e19-4f74-bfce-5a61429ffaa9",
+    "name": "Bureau Headmaster",
+    "released_date": "2024-07-05T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Assassin",
+    "text": "Equipment spells you cast cost {1} less to cast.\nEquip abilities you activate cost {1} less to activate.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 3.15,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "6d925d13-fcd6-417b-b2b2-bbdd114aae78",
+    "name": "Campus Renovation",
+    "released_date": "2023-05-12T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}",
+    "type": "Sorcery",
+    "text": "Return up to one target artifact or enchantment card from your graveyard to the battlefield. Exile the top two cards of your library. Until the end of your next turn, you may play those cards.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.02,
+    "foil_price_in_usd": 0.05
+  },
+  {
+    "id": "1ad535b8-7846-41a6-a981-fe97eaf588a6",
+    "name": "Captain's Maneuver",
+    "released_date": "2009-09-04T00:00:00.000Z",
+    "mana_cost": "{X}{R}{W}",
+    "type": "Instant",
+    "text": "The next X damage that would be dealt to target creature, planeswalker, or player this turn is dealt to another target creature, planeswalker, or player instead.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.25,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "11df0ed7-ae08-4a95-8b79-d6be0df9e31a",
+    "name": "Cautery Sliver",
+    "released_date": "2021-03-19T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Sliver",
+    "text": "All Slivers have \"{1}, Sacrifice this permanent: This permanent deals 1 damage to any target.\"\nAll Slivers have \"{1}, Sacrifice this permanent: Prevent the next 1 damage that would be dealt to target player, planeswalker, or Sliver creature this turn.\"",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.2,
+    "foil_price_in_usd": 0.81
+  },
+  {
+    "id": "116abc15-d79b-4dfe-8f9f-f38bcf429da8",
+    "name": "Cerodon Yearling",
+    "released_date": "2009-09-04T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Beast",
+    "text": "Vigilance, haste",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "COMMON",
+    "price_in_usd": 0.3,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "85edf6f9-b863-41e2-bb51-857ea2798090",
+    "name": "Chance for Glory",
+    "released_date": "2018-10-05T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Instant",
+    "text": "Creatures you control gain indestructible. Take an extra turn after this one. At the beginning of that turn's end step, you lose the game.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "MYTHIC",
+    "price_in_usd": 1.04,
+    "foil_price_in_usd": 12.83
+  },
+  {
+    "id": "9f523765-7704-4faf-a72b-8a2c414bb179",
+    "name": "Cloudshredder Sliver",
+    "released_date": "2023-08-04T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Sliver",
+    "text": "Sliver creatures you control have flying and haste.",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 1.05,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "5c9ad04d-c4d4-4d06-93bb-a881be733717",
+    "name": "Conduit Goblin",
+    "released_date": "2024-06-14T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Goblin Warrior",
+    "text": "When Conduit Goblin enters, you get {E}{E} (two energy counters).\nAt the beginning of combat on your turn, you may pay {E}. If you do, another target creature you control gets +1/+0 and gains haste until end of turn.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "COMMON",
+    "price_in_usd": 0.02,
+    "foil_price_in_usd": 0.04
+  },
+  {
+    "id": "1e115a81-001d-4e17-98af-6a63f2b0967f",
+    "name": "Deafening Clarion",
+    "released_date": "2018-10-05T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Sorcery",
+    "text": "Choose one or both —\n• Deafening Clarion deals 3 damage to each creature.\n• Creatures you control gain lifelink until end of turn.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "RARE",
+    "price_in_usd": 0.21,
+    "foil_price_in_usd": 0.95
+  },
+  {
+    "id": "c5bda1a7-537f-4a80-95a0-c45eb127969b",
+    "name": "Deflecting Palm",
+    "released_date": "2024-02-09T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Instant",
+    "text": "The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, Deflecting Palm deals that much damage to that source's controller.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 1.17,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "e8a4fb8d-8ddd-4d1d-92c7-2bf6b0e6c488",
+    "name": "Desperate Stand",
+    "released_date": "2014-05-02T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Sorcery",
+    "text": "Strive — This spell costs {R}{W} more to cast for each target beyond the first.\nAny number of target creatures each get +2/+0 and gain first strike and vigilance until end of turn.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.06,
+    "foil_price_in_usd": 0.31
+  },
+  {
+    "id": "816242c4-54ec-4f49-8f77-b3dbf1576247",
+    "name": "Dinosaurs on a Spaceship",
+    "released_date": "2023-10-13T00:00:00.000Z",
+    "mana_cost": "{4}{R}{W}",
+    "type": "Creature — Dinosaur",
+    "text": "Vigilance, trample\nOther Dinosaurs you control get +1/+1 and have vigilance and trample.\nSuspend 4—{3}{R}{W}\nWhenever a time counter is removed from Dinosaurs on a Spaceship while it's exiled, create a 2/2 red and white Dinosaur creature token with flying and haste.",
+    "power": 7,
+    "toughness": 7,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 6,
+    "rarity": "RARE",
+    "price_in_usd": 5.65,
+    "foil_price_in_usd": 8.24
+  },
+  {
+    "id": "a6e0adb7-a030-4dcc-9284-cd91c7598a22",
+    "name": "Dog Walker",
+    "released_date": "2024-02-09T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Citizen",
+    "text": "Vigilance\nDisguise {R/W}{R/W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Dog Walker is turned face up, create two tapped 1/1 white Dog creature tokens.",
+    "power": 3,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "COMMON",
+    "price_in_usd": 0.02,
+    "foil_price_in_usd": 0.05
+  },
+  {
+    "id": "82505754-a22f-4ae9-8efd-75eff17cbed6",
+    "name": "Double Cleave",
+    "released_date": "2018-12-07T00:00:00.000Z",
+    "mana_cost": "{1}{R/W}",
+    "type": "Instant",
+    "text": "Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "COMMON",
+    "price_in_usd": 0.13,
+    "foil_price_in_usd": 0.22
+  },
+  {
+    "id": "a6555cbb-97fc-4258-9b11-096c3eaec833",
+    "name": "Duergar Assailant",
+    "released_date": "2008-07-25T00:00:00.000Z",
+    "mana_cost": "{R/W}",
+    "type": "Creature — Dwarf Soldier",
+    "text": "Sacrifice Duergar Assailant: It deals 1 damage to target attacking or blocking creature.",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 1,
+    "rarity": "COMMON",
+    "price_in_usd": 0.11,
+    "foil_price_in_usd": 0.3
+  },
+  {
+    "id": "a55e7048-4532-443b-9480-a139069ecf0a",
+    "name": "Duergar Hedge-Mage",
+    "released_date": "2023-04-21T00:00:00.000Z",
+    "mana_cost": "{2}{R/W}",
+    "type": "Creature — Dwarf Shaman",
+    "text": "When Duergar Hedge-Mage enters, if you control two or more Mountains, you may destroy target artifact.\nWhen Duergar Hedge-Mage enters, if you control two or more Plains, you may destroy target enchantment.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.1,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "e97983b9-6c93-41ce-8deb-ac08811a0834",
+    "name": "Duergar Mine-Captain",
+    "released_date": "2008-07-25T00:00:00.000Z",
+    "mana_cost": "{2}{R/W}",
+    "type": "Creature — Dwarf Soldier",
+    "text": "{1}{R/W}, {Q}: Attacking creatures get +1/+0 until end of turn. ({Q} is the untap symbol.)",
+    "power": 2,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.16,
+    "foil_price_in_usd": 0.84
+  },
+  {
+    "id": "35203138-5237-49aa-a335-7a32829548a1",
+    "name": "Eiganjo Uprising",
+    "released_date": "2022-02-18T00:00:00.000Z",
+    "mana_cost": "{X}{R}{W}",
+    "type": "Sorcery",
+    "text": "Create X 2/2 white Samurai creature tokens with vigilance. They gain menace and haste until end of turn.\nEach opponent creates X minus one 2/2 white Samurai creature tokens with vigilance.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 0.1,
+    "foil_price_in_usd": 0.17
+  },
+  {
+    "id": "711f4cff-0256-44b2-a2fe-1cae6e9edb2b",
+    "name": "Energy Bolt",
+    "released_date": "1996-10-08T00:00:00.000Z",
+    "mana_cost": "{X}{R}{W}",
+    "type": "Sorcery",
+    "text": "Choose one —\n• Energy Bolt deals X damage to target player or planeswalker.\n• Target player gains X life.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 1.03,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "ffe9ee1c-5eb3-4d63-a641-0ec5adf7b058",
+    "name": "Fallaji Vanguard",
+    "released_date": "2022-11-18T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Creature — Human Soldier",
+    "text": "First strike\nWhenever Fallaji Vanguard or another creature you control enters, target creature gets +2/+0 until end of turn.",
+    "power": 2,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.03,
+    "foil_price_in_usd": 0.14
+  },
+  {
+    "id": "d54a8329-b940-42c9-8ace-1d74407d14cb",
+    "name": "Fighter Class",
+    "released_date": "2021-07-23T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Enchantment — Class",
+    "text": "(Gain the next level as a sorcery to add its ability.)\nWhen Fighter Class enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\n{1}{R}{W}: Level 2\nEquip abilities you activate cost {2} less to activate.\n{3}{R}{W}: Level 3\nWhenever a creature you control attacks, up to one target creature blocks it this combat if able.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 10.29,
+    "foil_price_in_usd": 11.63
+  },
+  {
+    "id": "5552ca9b-0245-4f91-9646-a5b5443863a2",
+    "name": "Fight to the Death",
+    "released_date": "2009-04-30T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Instant",
+    "text": "Destroy all blocking creatures and all blocked creatures.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 1.87,
+    "foil_price_in_usd": 6.31
+  },
+  {
+    "id": "6d779966-4bd4-4315-8b45-d3a4492f2bb2",
+    "name": "Figure of Destiny",
+    "released_date": "2022-07-08T00:00:00.000Z",
+    "mana_cost": "{R/W}",
+    "type": "Creature — Kithkin",
+    "text": "{R/W}: Figure of Destiny becomes a Kithkin Spirit with base power and toughness 2/2.\n{R/W}{R/W}{R/W}: If Figure of Destiny is a Spirit, it becomes a Kithkin Spirit Warrior with base power and toughness 4/4.\n{R/W}{R/W}{R/W}{R/W}{R/W}{R/W}: If Figure of Destiny is a Warrior, it becomes a Kithkin Spirit Warrior Avatar with base power and toughness 8/8, flying, and first strike.",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 1,
+    "rarity": "RARE",
+    "price_in_usd": 0.23,
+    "foil_price_in_usd": 0.31
+  },
+  {
+    "id": "53617fbc-a6e9-4f06-8c4b-4699325cdcac",
+    "name": "Fire at Will",
+    "released_date": "2008-07-25T00:00:00.000Z",
+    "mana_cost": "{R/W}{R/W}{R/W}",
+    "type": "Instant",
+    "text": "Fire at Will deals 3 damage divided as you choose among one, two, or three target attacking or blocking creatures.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "COMMON",
+    "price_in_usd": 0.08,
+    "foil_price_in_usd": 0.3
+  },
+  {
+    "id": "6716f46c-806d-4b3e-8a1c-fd6dcedacf8e",
+    "name": "Fireborn Knight",
+    "released_date": "2019-10-04T00:00:00.000Z",
+    "mana_cost": "{R/W}{R/W}{R/W}{R/W}",
+    "type": "Creature — Human Knight",
+    "text": "Double strike\n{R/W}{R/W}{R/W}{R/W}: Fireborn Knight gets +1/+1 until end of turn.",
+    "power": 2,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.06,
+    "foil_price_in_usd": 0.08
+  },
+  {
+    "id": "16384575-d0bc-4826-966e-a4bf6ae6ab97",
+    "name": "Firemane Angel",
+    "released_date": "2017-11-17T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}{W}",
+    "type": "Creature — Angel",
+    "text": "Flying, first strike\nAt the beginning of your upkeep, if Firemane Angel is in your graveyard or on the battlefield, you may gain 1 life.\n{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate only during your upkeep.",
+    "power": 4,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 6,
+    "rarity": "RARE",
+    "price_in_usd": 0.28,
+    "foil_price_in_usd": 1.02
+  },
+  {
+    "id": "c04d0f5a-b1e4-490d-b119-95378535ac5d",
+    "name": "Firemane Avenger",
+    "released_date": "2024-02-23T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Creature — Angel",
+    "text": "Flying\nBattalion — Whenever Firemane Avenger and at least two other creatures attack, Firemane Avenger deals 3 damage to any target and you gain 3 life.",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "RARE",
+    "price_in_usd": 0.13,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "fe7db99b-903f-43d8-bc60-cab2d914a0cb",
+    "name": "Flame-Kin Zealot",
+    "released_date": "2016-06-10T00:00:00.000Z",
+    "mana_cost": "{1}{R}{R}{W}",
+    "type": "Creature — Elemental Berserker",
+    "text": "When Flame-Kin Zealot enters, creatures you control get +1/+1 and gain haste until end of turn.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.03,
+    "foil_price_in_usd": 0.16
+  },
+  {
+    "id": "fc0f2b5a-f9fd-4f58-bc98-201b4c0e8252",
+    "name": "Flamewright",
+    "released_date": "2014-06-06T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Artificer",
+    "text": "{1}, {T}: Create a 1/1 colorless Construct artifact creature token with defender.\n{T}, Sacrifice a creature with defender: Flamewright deals 1 damage to any target.",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.18,
+    "foil_price_in_usd": 1.01
+  },
+  {
+    "id": "c57abdab-d99c-418c-818d-b06a8722d733",
+    "name": "Flowstone Charger",
+    "released_date": "2001-06-04T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Creature — Beast",
+    "text": "Whenever Flowstone Charger attacks, it gets +3/-3 until end of turn.",
+    "power": 2,
+    "toughness": 5,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.1,
+    "foil_price_in_usd": 0.47
+  },
+  {
+    "id": "3ce46100-461d-424e-afa4-7a0bb7d0a822",
+    "name": "Forging the Tyrite Sword",
+    "released_date": "2021-02-05T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Enchantment — Saga",
+    "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Create a Treasure token.\nIII — Search your library for a card named Halvar, God of Battle or an Equipment card, reveal it, put it into your hand, then shuffle.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.13,
+    "foil_price_in_usd": 0.34
+  },
+  {
+    "id": "39ee1387-c24e-4a66-8ad6-9afa9c0abcbb",
+    "name": "Form a Posse",
+    "released_date": "2024-04-19T00:00:00.000Z",
+    "mana_cost": "{X}{R}{W}",
+    "type": "Sorcery",
+    "text": "Create X 1/1 red Mercenary creature tokens with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.06,
+    "foil_price_in_usd": 0.1
+  },
+  {
+    "id": "06c053d3-028e-4961-93a5-5b7bb5a8601c",
+    "name": "Forth Eorlingas!",
+    "released_date": "2023-06-23T00:00:00.000Z",
+    "mana_cost": "{X}{R}{W}",
+    "type": "Sorcery",
+    "text": "Create X 2/2 red Human Knight creature tokens with trample and haste.\nWhenever one or more creatures you control deal combat damage to one or more players this turn, you become the monarch.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 6.63,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "39f835f0-abba-402c-bdae-be03ad3fb658",
+    "name": "Fortress Cyclops",
+    "released_date": "2013-02-01T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}",
+    "type": "Creature — Cyclops Soldier",
+    "text": "Whenever Fortress Cyclops attacks, it gets +3/+0 until end of turn.\nWhenever Fortress Cyclops blocks, it gets +0/+3 until end of turn.",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.08,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "84e39703-db78-4d3d-aacd-5396848253ed",
+    "name": "Foundry Champion",
+    "released_date": "2013-02-01T00:00:00.000Z",
+    "mana_cost": "{4}{R}{W}",
+    "type": "Creature — Elemental Soldier",
+    "text": "When Foundry Champion enters, it deals damage to any target equal to the number of creatures you control.\n{R}: Foundry Champion gets +1/+0 until end of turn.\n{W}: Foundry Champion gets +0/+1 until end of turn.",
+    "power": 4,
+    "toughness": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 6,
+    "rarity": "RARE",
+    "price_in_usd": 0.09,
+    "foil_price_in_usd": 0.2
+  },
+  {
+    "id": "9c54b7c6-f94c-4349-8725-319c54240409",
+    "name": "Foundry Helix",
+    "released_date": "2021-06-18T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Instant",
+    "text": "As an additional cost to cast this spell, sacrifice a permanent.\nFoundry Helix deals 4 damage to any target. If the sacrificed permanent was an artifact, you gain 4 life.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "COMMON",
+    "price_in_usd": 0.04,
+    "foil_price_in_usd": 0.07
+  },
+  {
+    "id": "276d127a-2685-4de2-b4df-dd37f7682cd7",
+    "name": "Fresh-Faced Recruit",
+    "released_date": "2024-02-23T00:00:00.000Z",
+    "mana_cost": "{1}{R/W}",
+    "type": "Creature — Human Soldier",
+    "text": "During your turn, Fresh-Faced Recruit has first strike.",
+    "power": 2,
+    "toughness": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "COMMON",
+    "price_in_usd": 0.1,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "2bd957a1-a354-48e9-80ad-66e49aa845fc",
+    "name": "Garrison Sergeant",
+    "released_date": "2018-10-05T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}",
+    "type": "Creature — Lizard Soldier",
+    "text": "Garrison Sergeant has double strike as long as you control a Gate.",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "COMMON",
+    "price_in_usd": 0.03,
+    "foil_price_in_usd": 0.2
+  },
+  {
+    "id": "e5f0feef-1a71-4c8c-9fd1-f5cbe718a988",
+    "name": "Gleam of Battle",
+    "released_date": "2013-05-03T00:00:00.000Z",
+    "mana_cost": "{4}{R}{W}",
+    "type": "Enchantment",
+    "text": "Whenever a creature you control attacks, put a +1/+1 counter on it.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 6,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.15,
+    "foil_price_in_usd": 1.14
+  },
+  {
+    "id": "ed9150c4-4f02-4c42-9bad-1dcf13530854",
+    "name": "Glory of Warfare",
+    "released_date": "2009-09-04T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Enchantment",
+    "text": "During your turn, creatures you control get +2/+0.\nDuring turns other than yours, creatures you control get +0/+2.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "RARE",
+    "price_in_usd": 0.77,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "c684407e-277a-4e32-a978-cdac9548acce",
+    "name": "Goblin Legionnaire",
+    "released_date": "2001-06-04T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Goblin Soldier",
+    "text": "{R}, Sacrifice Goblin Legionnaire: It deals 2 damage to any target.\n{W}, Sacrifice Goblin Legionnaire: Prevent the next 2 damage that would be dealt to any target this turn.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "COMMON",
+    "price_in_usd": 0.13,
+    "foil_price_in_usd": 0.7
+  },
+  {
+    "id": "06625dee-d2e6-4efa-a385-5113d0fe78ac",
+    "name": "Goblin Trenches",
+    "released_date": "2016-06-10T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Enchantment",
+    "text": "{2}, Sacrifice a land: Create two 1/1 red and white Goblin Soldier creature tokens.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "RARE",
+    "price_in_usd": 0.34,
+    "foil_price_in_usd": 0.83
+  },
+  {
+    "id": "9efac789-587b-45c1-b16e-616e9486b59b",
+    "name": "Hammer Dropper",
+    "released_date": "2018-10-05T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Creature — Giant Soldier",
+    "text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
+    "power": 5,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "COMMON",
+    "price_in_usd": 0.03,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "06ee5eda-41a9-4cae-bb2a-b63fd450d02d",
+    "name": "Hearthfire Hobgoblin",
+    "released_date": "2015-05-22T00:00:00.000Z",
+    "mana_cost": "{R/W}{R/W}{R/W}",
+    "type": "Creature — Goblin Soldier",
+    "text": "Double strike",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.07,
+    "foil_price_in_usd": 0.69
+  },
+  {
+    "id": "af569235-f5cb-4e3e-ba77-c1c429ed0a60",
+    "name": "Heartwarming Redemption",
+    "released_date": "2019-05-03T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Instant",
+    "text": "Discard all the cards in your hand, then draw that many cards plus one. You gain life equal to the number of cards in your hand.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.1,
+    "foil_price_in_usd": 0.81
+  },
+  {
+    "id": "6a05e8d5-c2ad-489a-888d-22622886b620",
+    "name": "Heroic Reinforcements",
+    "released_date": "2024-11-15T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Sorcery",
+    "text": "Create two 1/1 white Soldier creature tokens. Until end of turn, creatures you control get +1/+1 and gain haste. (They can attack and {T} this turn.)",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.04,
+    "foil_price_in_usd": 0.1
+  },
+  {
+    "id": "9854e673-1816-4a76-b9db-bb399ac7489f",
+    "name": "Hero of the Nyxborn",
+    "released_date": "2020-01-24T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Enchantment Creature — Human Soldier",
+    "text": "When Hero of the Nyxborn enters, create a 1/1 white Human Soldier creature token.\nWhenever you cast a spell that targets Hero of the Nyxborn, creatures you control get +1/+0 until end of turn.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.07,
+    "foil_price_in_usd": 0.23
+  },
+  {
+    "id": "60d3708b-dd40-4515-bf8f-36cbc5de6b67",
+    "name": "Highspire Mantis",
+    "released_date": "2014-09-26T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Creature — Insect",
+    "text": "Flying, trample",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.07,
+    "foil_price_in_usd": 0.07
+  },
+  {
+    "id": "090223a1-2644-4b81-a9f5-d15ca6df5229",
+    "name": "Hobgoblin Dragoon",
+    "released_date": "2008-07-25T00:00:00.000Z",
+    "mana_cost": "{2}{R/W}",
+    "type": "Creature — Goblin Knight",
+    "text": "Flying, first strike",
+    "power": 1,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "COMMON",
+    "price_in_usd": 0.12,
+    "foil_price_in_usd": 0.25
+  },
+  {
+    "id": "b1b44194-fed5-491c-a791-80b986dd66d6",
+    "name": "Honored Crop-Captain",
+    "released_date": "2017-04-28T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Warrior",
+    "text": "Whenever Honored Crop-Captain attacks, other attacking creatures get +1/+0 until end of turn.",
+    "power": 3,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.11,
+    "foil_price_in_usd": 1.03
+  },
+  {
+    "id": "6d39ec36-e1f9-42cc-bea6-fe4407fb42c1",
+    "name": "Imperial Blademaster",
+    "released_date": "2022-03-17T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Creature — Human Samurai",
+    "text": "Double strike\nWhenever a Samurai or Warrior you control attacks alone, draft a card from Imperial Blademaster's spellbook.",
+    "power": 2,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "RARE",
+    "price_in_usd": 0,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "0c3f372d-259d-4a31-9491-2d369b3f3f8b",
+    "name": "Inspiring Veteran",
+    "released_date": "2019-10-04T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Knight",
+    "text": "Other Knights you control get +1/+1.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.06,
+    "foil_price_in_usd": 0.25
+  },
+  {
+    "id": "17e4fb54-9f31-4d75-b4ab-7b11f745b807",
+    "name": "Intimidation Bolt",
+    "released_date": "2009-04-30T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Instant",
+    "text": "Intimidation Bolt deals 3 damage to target creature. Other creatures can't attack this turn.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.4,
+    "foil_price_in_usd": 2.52
+  },
+  {
+    "id": "7a1acb59-a679-4c6d-8458-8fe5556b9d4d",
+    "name": "Inventory Management",
+    "released_date": "2024-03-08T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Instant",
+    "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nFor each Aura and Equipment you control, you may attach it to a creature you control.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 3.79,
+    "foil_price_in_usd": 4.56
+  },
+  {
+    "id": "c0441583-c9d5-47a1-8754-c9162cec64bc",
+    "name": "Iroas's Champion",
+    "released_date": "2015-07-17T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Creature — Human Soldier",
+    "text": "Double strike (This creature deals both first-strike and regular combat damage.)",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.06,
+    "foil_price_in_usd": 0.37
+  },
+  {
+    "id": "1b1f5093-c100-4741-aa5b-25107ce34c45",
+    "name": "Jewel Mine Overseer",
+    "released_date": "2023-10-10T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Creature — Human Noble",
+    "text": "When Jewel Mine Overseer enters, conjure seven cards named Seven Dwarves on top of your library. They perpetually gain \"When this creature enters, draw a card.\" Then shuffle.\nAt the beginning of your upkeep, exile the top card of your library. You may play that card this turn.",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "MYTHIC",
+    "price_in_usd": 0,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "2ab1e87e-e778-46fb-9f6d-563463447159",
+    "name": "Judoon Enforcers",
+    "released_date": "2023-10-13T00:00:00.000Z",
+    "mana_cost": "{5}{R}{W}",
+    "type": "Creature — Alien Rhino Soldier",
+    "text": "Trample\nNo more than one creature can attack you each combat.\nSuspend 6—{1}{R}{W} (Rather than cast this card from your hand, you may pay {1}{R}{W} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)",
+    "power": 8,
+    "toughness": 8,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 7,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.07,
+    "foil_price_in_usd": 0.47
+  },
+  {
+    "id": "27619ce9-59df-4f0e-a5db-2d32a530e547",
+    "name": "Justice Strike",
+    "released_date": "2018-10-05T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Instant",
+    "text": "Target creature deals damage to itself equal to its power.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.14,
+    "foil_price_in_usd": 0.89
+  },
+  {
+    "id": "6f921dca-ce93-42d1-87b1-149973558467",
+    "name": "Kargan Warleader",
+    "released_date": "2020-09-25T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Creature — Human Warrior",
+    "text": "Other Warriors you control get +1/+1.",
+    "power": 3,
+    "toughness": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.05,
+    "foil_price_in_usd": 0.16
+  },
+  {
+    "id": "e0de3c85-0662-4374-bd21-65d3a34f2263",
+    "name": "Lavabelly Sliver",
+    "released_date": "2023-08-04T00:00:00.000Z",
+    "mana_cost": "{1}{R}{W}",
+    "type": "Creature — Sliver",
+    "text": "Sliver creatures you control have \"When this creature enters, it deals 1 damage to target player or planeswalker and you gain 1 life.\"",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.25,
+    "foil_price_in_usd": 0
+  },
+  {
+    "id": "b03423b2-faca-4b2e-8328-8b9b7fdb7ce3",
+    "name": "Legion Guildmage",
+    "released_date": "2018-10-05T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Wizard",
+    "text": "{5}{R}, {T}: Legion Guildmage deals 3 damage to each opponent.\n{2}{W}, {T}: Tap another target creature.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.06,
+    "foil_price_in_usd": 0.58
+  },
+  {
+    "id": "e41f950f-b818-4150-af71-b53a502ca0d5",
+    "name": "Legion's Initiative",
+    "released_date": "2022-07-08T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Enchantment",
+    "text": "Red creatures you control get +1/+0.\nWhite creatures you control get +0/+1.\n{R}{W}, Exile Legion's Initiative: Exile all creatures you control. At the beginning of the next combat, return those cards to the battlefield under their owner's control and those creatures gain haste until end of turn.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "RARE",
+    "price_in_usd": 1.21,
+    "foil_price_in_usd": 0.65
+  },
+  {
+    "id": "4101e3fe-b0e7-4f0f-b9ac-9b61a4d628b3",
+    "name": "Lightning Helix",
+    "released_date": "2024-02-09T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Instant",
+    "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.15,
+    "foil_price_in_usd": 0.26
+  },
+  {
+    "id": "048157c6-4626-4881-ba19-deddd13622dc",
+    "name": "Lorehold Apprentice",
+    "released_date": "2021-04-23T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Creature — Human Cleric",
+    "text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, until end of turn, Spirit creatures you control gain \"{T}: This creature deals 1 damage to each opponent.\"",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.06,
+    "foil_price_in_usd": 0.09
+  },
+  {
+    "id": "e4f0885f-1049-4a19-853d-f4e6d4bec29e",
+    "name": "Lorehold Command",
+    "released_date": "2021-04-23T00:00:00.000Z",
+    "mana_cost": "{3}{R}{W}",
+    "type": "Instant",
+    "text": "Choose two —\n• Create a 3/2 red and white Spirit creature token.\n• Creatures you control get +1/+0 and gain indestructible and haste until end of turn.\n• Lorehold Command deals 3 damage to any target. Target player gains 3 life.\n• Sacrifice a permanent, then draw two cards.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 5,
+    "rarity": "RARE",
+    "price_in_usd": 0.23,
+    "foil_price_in_usd": 0.26
+  },
+  {
+    "id": "43105beb-46f3-4914-8222-4907bd76d48f",
+    "name": "Lorehold Excavation",
+    "released_date": "2021-04-23T00:00:00.000Z",
+    "mana_cost": "{R}{W}",
+    "type": "Enchantment",
+    "text": "At the beginning of your end step, mill a card. If a land card was milled this way, you gain 1 life. Otherwise, Lorehold Excavation deals 1 damage to each opponent. (To mill a card, put the top card of your library into your graveyard.)\n{5}, Exile a creature card from your graveyard: Create a tapped 3/2 red and white Spirit creature token.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 2,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0.04,
+    "foil_price_in_usd": 0.05
+  },
+  {
+    "id": "79b88b38-6b5a-4a89-80ca-add79c11e8b9",
+    "name": "Lorehold Pledgemage",
+    "released_date": "2021-04-23T00:00:00.000Z",
+    "mana_cost": "{1}{R/W}{R/W}",
+    "type": "Creature — Kor Shaman",
+    "text": "First strike\nMagecraft — Whenever you cast or copy an instant or sorcery spell, Lorehold Pledgemage gets +1/+0 until end of turn.",
+    "power": 2,
+    "toughness": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 3,
+    "rarity": "COMMON",
+    "price_in_usd": 0.03,
+    "foil_price_in_usd": 0.02
+  },
+  {
+    "id": "7e937830-3804-44e8-b9d0-3e5f5cf39eab",
+    "name": "Make Your Mark",
+    "released_date": "2021-04-23T00:00:00.000Z",
+    "mana_cost": "{R/W}",
+    "type": "Instant",
+    "text": "Target creature gets +1/+0 until end of turn. When that creature dies this turn, create a 3/2 red and white Spirit creature token.",
+    "power": null,
+    "toughness": null,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 1,
+    "rarity": "COMMON",
+    "price_in_usd": 0.07,
+    "foil_price_in_usd": 0.12
+  }
+]

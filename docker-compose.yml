@@ -1,0 +1,95 @@
+version: "3.8"
+
+services:
+  api:
+    container_name: mtg_api
+    build:
+      context: ./mtg-api
+    ports:
+      - 3000:3000
+    env_file:
+      - ./mtg-api/.env
+    restart: always
+    # volumes:
+    #   - ./mtg-api:/app
+    networks:
+      - mtg_network
+    depends_on:
+      mtg_db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      rabbit-mq:
+        condition: service_healthy
+
+  websocket-service:
+    container_name: websocket-service
+    build:
+      context: ./websocket-service
+    ports:
+      - 4000:4000
+    networks:
+      - mtg_network
+    restart: always
+    depends_on:
+      - api
+
+  mtg_db:
+    container_name: mtg_db
+    image: postgres:12-alpine
+    restart: always
+    env_file:
+      - ./mtg-api/.env
+    ports:
+      - 5431:5432
+    volumes:
+      - mtg_db:/var/lib/postgresql/data
+    networks:
+      - mtg_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    container_name: redis
+    image: redis:alpine
+    restart: always
+    ports:
+      - 6379:6379
+    volumes:
+      - redis_data:/data
+    networks:
+      - mtg_network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  rabbit-mq:
+    container_name: rabbit-mq
+    image: rabbitmq:3-management
+    restart: always
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    networks:
+      - mtg_network
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "ping"]
+      interval: 5s
+      timeout: 2s
+      retries: 5
+
+volumes:
+  mtg_db: {}
+  redis_data: {}
+
+networks:
+  mtg_network:
+    driver: bridge
