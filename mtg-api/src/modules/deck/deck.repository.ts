@@ -55,6 +55,6 @@ export class DecksRepository {
   }
 
   delete(id: string) {
-    this.prismaService.deck.delete({ where: { id } });
+    return this.prismaService.deck.delete({ where: { id } });
   }
 }

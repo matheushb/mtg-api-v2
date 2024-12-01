@@ -1,4 +1,4 @@
-import { BadRequestException, Injectable } from '@nestjs/common';
+import { BadRequestException, Inject, Injectable } from '@nestjs/common';
 
 import {
   allowedFilters,
@@ -14,6 +14,7 @@ import { CardsService } from '../cards/cards.service';
 import { CardDeckService } from '../card-deck/card-deck.service';
 import { writeFileSync } from 'fs';
 import { ScyfallGateway } from 'src/gateways/scyfall.gateway';
+import { ClientProxy } from '@nestjs/microservices';
 
 @Injectable()
 export class DecksService {
@@ -22,10 +23,18 @@ export class DecksService {
     private readonly cardsService: CardsService,
     private readonly cardDeckService: CardDeckService,
     private readonly scyfallGateway: ScyfallGateway,
+    @Inject('RABBITMQ_WEBSOCKET') private readonly client: ClientProxy,
   ) {}
 
   async create(createDeckDto: CreateDeckDto) {
-    return await this.decksRepository.create(createDeckDto);
+    const deck = await this.decksRepository.create(createDeckDto);
+
+    await this.sendDeckUpdateMessage(
+      createDeckDto.user_id,
+      'Deck criado com sucesso!',
+    );
+
+    return deck;
   }
 
   async findAll(deckFilter: DeckFilterParams, deckSelect: DeckSelectParams) {
@@ -51,13 +60,34 @@ export class DecksService {
 
   async update(id: string, updateDeckDto: UpdateDeckDto) {
     const updatedDeck = await this.decksRepository.update(id, updateDeckDto);
+
+    this.sendDeckUpdateMessage(
+      updateDeckDto.user_id,
+      'Deck atualizado com sucesso!',
+    );
+
     return {
       data: updatedDeck,
     };
   }
 
   async delete(id: string) {
-    await this.decksRepository.delete(id);
+    const deletedDeck = await this.decksRepository.delete(id);
+
+    await this.sendDeckUpdateMessage(
+      deletedDeck.user_id,
+      'Deck deletado com sucesso!',
+    );
+  }
+
+  private async sendDeckUpdateMessage(user_id: string, message: string) {
+    await this.client.connect();
+    this.client.emit('deck_updates_queue', {
+      data: {
+        user_id,
+        message,
+      },
+    });
   }
 
   async seedDeck(user: RequestUser, deckName: string, col: string) {
