@@ -1,5 +1,3 @@
-https://github.com/TI-UNICESUMAR/2024-desafio-profissional-v-ESOFT5S-B/issues/23
-
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -11,30 +9,22 @@ https://github.com/TI-UNICESUMAR/2024-desafio-profissional-v-ESOFT5S-B/issues/23
     <p align="center">
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Iniciar a aplicação
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- Copie o conteúdo do .env.example para uma .env em /mtg-api
+- Garanta que o Docker está instalado e rodando
+- Execute:
+  ```
+  docker-compose up --build
+  ```
+- Assim a aplicação irá iniciar junto com os logs de todos os serviços.
 
-## Installation
+## Swagger
 
-```bash
-$ npm install
-```
+- /api
 
-## Running the app
+## Rodar a aplicação localmente
 
 ```bash
 # development
@@ -47,74 +37,85 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Prisma
+
+```bash
+# aplicar migrations
+$ npx prisma db push
+
+# abrir o banco porta 5555
+$ npx prisma studio
+```
+
+## Teste
 
 ```bash
 # unit tests
 $ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
-## Support
+## Decks
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- O método **GET /deck** retorna todos os baralhos da aplicação, podendo colocar true na flag showCards para retornar as cartas associadas a esse baralho
 
-## Stay in touch
+### POST/ deck/seed/\{deck_name\}\/\{color}/
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Rota para seedar aleatóriamente da api do scyfall um deck.
+- Informe as cores e o nome do deck.
 
-## License
+### POST/ deck/import
 
-Nest is [MIT licensed](LICENSE).
+- Há um exemplo `mtg-api/deck.json`
+- Recebe um JSON contendo o nome do baralho e um array de cartas, que serão importadas para um deck com o nome especificado.
+- O array de cards deve estar nesse formato:
 
-## SWAGGER
+```json
+[
+  {
+    "id": "7ad77890-cf97-4707-ab31-be0f5be0e120",
+    "name": "A-Bruenor Battlehammer",
+    "released_date": "2021-07-23T00:00:00.000Z",
+    "mana_cost": "{2}{R}{W}",
+    "type": "Legendary Creature — Dwarf Warrior",
+    "text": "Each creature you control gets +2/+0 for each Equipment attached to it.\n{0}: Attach target Equipment you control to target creature you control. Activate only as a sorcery and only once each turn.",
+    "power": 5,
+    "toughness": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "cmc": 4,
+    "rarity": "UNCOMMON",
+    "price_in_usd": 0,
+    "foil_price_in_usd": 0
+  },
+ ...
+]
+```
 
-- O swagger esta presente na rota http://localhost:8000/api
+## Mensageria
 
-## Iniciar a aplicação
+- A aplicação está utilizando RabbitMQ com duas filas
 
-- Copie o conteúdo do .env.example para uma .env
-- Garante que o Docker está instalado e rodando
-- Rode docker-compose up -d
-- npx prisma migrate dev
-- npm run start:dev
+### deck_import_queue
 
-## User com role admin
+- Essa fila é responsável por finalizar o processo de importação do baralho, salvando no banco.
 
-- Para criar um usuário com a role ADMIN, abra o prisma studio e altere a role de um usuário criado na rota /signup
-- Após o docker estar rodando e aplicar as migrações no banco
-- Rode npx prisma studio
+### deck_updates_queue
 
-## Requisitos
+- Essa fila é responsável por receber mensagens de atualização de deck e enviar notificações para o "frontend" (websocket-service) via websocket.
 
-1 - Permita que mais de um baralho seja criado em sua aplicação
+## Websocket
 
-- Mais de um baralho pode ser criado usando o método **POST** **/DECK**, o deck contém um conjunto de cartas, que é relacionado com a entidade CardDeck
+### websocket-service
 
-2 - Crie uma rota para listar todos os baralhos (somente um usuário com permissão admin pode usar essa rota)
+- A aplicação websocket-service é responsável por se conectar com o worker de Deck e notificar atualizações, criações e deleções de decks.
 
-- O método **GET /deck** só pode ser acessado por users com a role ADMIN, ela retorna todos os baralhos da aplicação, podendo colocar true na flag showCards para retornar as cartas associadas a esse baralho
-
-3 - Crie uma rota para listar somente os baralhos do jogador que está logado
-
-- O método GET /deck/me retorna os decks associados ao user logado, retirando o userId presente no JWT
-
-4 - Adicione cacheamento na rota de listar para listar todos os baralhos do jogador logado (Recomendação: [https://docs.nestjs.com/techniques/caching](https://docs.nestjs.com/techniques/caching))
+## Cache
 
 - Todos os findAll da aplicação contém sistema de Cache
 
-5 - Crie uma rota onde seja possível "importar" um baralho via json, e valide se esse baralho segue as regras do commander.
-
-- A rota POST scyfall/import recebe um JSON contendo o nome do baralho e um array de cartas, que serão importadas para um deck com o nome especificado, o array de “cards” deve conter cartas no formato especificado no deck.json presente na root do projeto, a validação ocorre com o transfomer, presente no DTO de import
-
-6 - Realize os testes de performance e indique o comparativo de quantas vezes mais requisições e tempo de resposta você conseguiu atender utilizando a listagem de baralhos com cache e sem cache.
+### Estatísticas
 
 ### `/decks?showCards=true`
 
@@ -159,7 +160,7 @@ Nest is [MIT licensed](LICENSE).
 - **Requisições por segundo (Avg):** 97.1
 - **Bytes por segundo (Avg):** 30.5 MB
 
-## Comparação
+### Comparação
 
 - **Requisições:**
   - O primeiro teste (`/decks?showCards=true`) processou **8.000 requisições** em 50 segundos, enquanto o segundo teste (`/decks/no-cache?showCards=true`) processou **5.000 requisições** no mesmo período. Isso indica que o primeiro endpoint é mais eficiente em lidar com carga de requisições.
