@@ -10,8 +10,6 @@ services:
     env_file:
       - ./mtg-api/.env
     restart: always
-    # volumes:
-    #   - ./mtg-api:/app
     networks:
       - mtg_network
     depends_on:
